@@ -18,7 +18,6 @@ app.use(bodyParser.urlencoded({extended:true}))
 routes(app)
 app.get('/',(req,res)=>{
     res.send("Server working correctly")
-    req.body("hiiii")
 })
 
 app.listen(4000, ()=>{
